@@ -10,4 +10,11 @@ import UIKit
 
 class addWeatherCityViewController: UIViewController {
     
+    @IBOutlet weak var cityNameTextField: UITextField!
+    
+    @IBAction func saveCityButtonPressed() {
+        
+    }
+    
+    
 }
