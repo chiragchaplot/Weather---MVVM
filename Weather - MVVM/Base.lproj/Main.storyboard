@@ -55,7 +55,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Settings" id="o7t-mE-r8M"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="McL-J8-19I">
                             <connections>
-                                <segue destination="Vmt-YD-mU8" kind="presentation" id="Tj8-hs-Rzm"/>
+                                <segue destination="Vmt-YD-mU8" kind="presentation" identifier="AddWeatherCityViewController" id="Tj8-hs-Rzm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -72,7 +72,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YAP-3d-Z5S">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter City Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YAP-3d-Z5S">
                                 <rect key="frame" x="51" y="97" width="311" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -91,7 +91,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add City" id="mtm-zc-3Tc">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="fa9-jp-ESc"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="fa9-jp-ESc">
+                            <connections>
+                                <action selector="close" destination="uTj-PR-x1t" id="gno-G9-WE2"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="cityNameTextField" destination="YAP-3d-Z5S" id="Bez-iJ-c0u"/>
