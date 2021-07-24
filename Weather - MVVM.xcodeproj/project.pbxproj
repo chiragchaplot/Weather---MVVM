@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050C76BB26AA5BDE00C49681 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C76BA26AA5BDE00C49681 /* Double+Extensions.swift */; };
+		050C76BF26AA61D400C49681 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C76BE26AA61D400C49681 /* SettingsViewModel.swift */; };
+		050C76C226AA61FF00C49681 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050C76C126AA61FF00C49681 /* SettingsTableViewController.swift */; };
 		0516FDE926A13DFC0010DD27 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516FDE826A13DFC0010DD27 /* WebService.swift */; };
 		0516FDED26A142300010DD27 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516FDEC26A142300010DD27 /* WeatherResponse.swift */; };
 		0516FDF126A157D70010DD27 /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516FDF026A157D70010DD27 /* AddWeatherViewModel.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050C76BA26AA5BDE00C49681 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		050C76BE26AA61D400C49681 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		050C76C126AA61FF00C49681 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		0516FDE826A13DFC0010DD27 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		0516FDEC26A142300010DD27 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		0516FDF026A157D70010DD27 /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 			children = (
 				0516FDF026A157D70010DD27 /* AddWeatherViewModel.swift */,
 				0516FDFC26A3B25D0010DD27 /* WeatherListViewModel.swift */,
+				050C76BE26AA61D400C49681 /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0516FDF926A158900010DD27 /* String+Extensions.swift */,
+				050C76BA26AA5BDE00C49681 /* Double+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			children = (
 				05B0B426263ECE690058A5C6 /* WeatherListTableVeiwController.swift */,
 				05B0B429263ECE8E0058A5C6 /* AddWeatherCityVC.swift */,
+				050C76C126AA61FF00C49681 /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -217,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050C76BB26AA5BDE00C49681 /* Double+Extensions.swift in Sources */,
 				0516FDFA26A158900010DD27 /* String+Extensions.swift in Sources */,
 				0516FDE926A13DFC0010DD27 /* WebService.swift in Sources */,
 				0516FDF126A157D70010DD27 /* AddWeatherViewModel.swift in Sources */,
@@ -224,6 +234,8 @@
 				05B0B42A263ECE8E0058A5C6 /* AddWeatherCityVC.swift in Sources */,
 				05B0B427263ECE690058A5C6 /* WeatherListTableVeiwController.swift in Sources */,
 				0516FDED26A142300010DD27 /* WeatherResponse.swift in Sources */,
+				050C76BF26AA61D400C49681 /* SettingsViewModel.swift in Sources */,
+				050C76C226AA61FF00C49681 /* SettingsTableViewController.swift in Sources */,
 				05B0B42F263ED4490058A5C6 /* WeatherCell.swift in Sources */,
 				05B0B410263ECBE80058A5C6 /* AppDelegate.swift in Sources */,
 				05B0B412263ECBE80058A5C6 /* SceneDelegate.swift in Sources */,
